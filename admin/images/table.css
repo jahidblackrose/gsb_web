@@ -1,0 +1,52 @@
+/* MAIN TABLE */
+
+
+table { 
+	border-collapse: collapse; 
+	margin: 15px; 
+	 
+}
+table th{ 
+	background: url(bg_box_head.jpg) repeat-x;
+	color: #DACDCD;
+	border-left: 1px dotted #000;
+	border-right: 1px dotted #000;
+	font-size: 09px; 
+	font-weight: bold; 
+	padding: 4px; 
+	text-shadow: 0px 0px #242424; 
+}
+
+table td{
+	padding-left:3px;
+}
+
+
+
+table td{ 
+border-bottom:1px dotted black;padding:1px;
+font-size:09px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+color:#000;
+padding: 5px; 
+
+}
+
+table.bottomBorder td, table.bottomBorder th { border-bottom:1px dotted black;padding:1px;
+font-size:11px;
+
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+padding: 3px; 
+
+}
+
+table.bottomBorder tr, table.bottomBorder tr { border:1px dotted black;padding:1px; }
+
+
+table tr:hover td{ 
+	background: #cbffa3;
+	color: #000; 
+}
+table .chb{ 
+	width: 10px; 
+}
